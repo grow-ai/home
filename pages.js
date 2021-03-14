@@ -5,7 +5,7 @@ const repoURL = "https://github.com/grow-ai/home.git";
 ghpages.publish(
   pathname,
   {
-    branch: "master",
+    branch: "gh-pages",
     repo: repoURL,
   },
   (err) => {
